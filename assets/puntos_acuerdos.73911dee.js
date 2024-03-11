@@ -1,0 +1,1 @@
+import{bE as t}from"./index.6395c7ec.js";const e=s=>t.get("/api/puntos-acuerdos",{params:s}),p=s=>t.get(`/api/puntos-acuerdos/${s}`),u=s=>t.get("/api/puntos-acuerdos/search",{params:s}),c=s=>t.post("/api/puntos-acuerdos",s),n=(s,o)=>t.put(`/api/puntos-acuerdos/${o}`,s),r=s=>t.delete(`/api/puntos-acuerdos/${s}`);export{p as a,c as b,r as d,e as i,u as s,n as u};

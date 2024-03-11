@@ -1,0 +1,1 @@
+import{bE as t}from"./index.6395c7ec.js";const o=s=>t.get("/api/temas",{params:s}),p=s=>t.get(`/api/temas/${s}`),c=s=>t.get("/api/temas/search",{params:s}),m=s=>t.post("/api/temas",s),n=(s,a,e)=>t.patch(`/api/temas/${a}/visible/${e}`,s),r=(s,a)=>t.put(`/api/temas/${a}`,s),d=s=>t.delete(`/api/temas/${s}`);export{p as a,m as b,d,o as i,c as s,r as u,n as v};
